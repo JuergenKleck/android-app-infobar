@@ -1,0 +1,9 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="10dp"
+    android:minHeight="10dp"
+    android:updatePeriodMillis="86400000"
+    android:initialLayout="@layout/app_widget_layout"
+    android:configure="info.simplyapps.app.infobar.ConfigActivity"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen">
+</appwidget-provider>

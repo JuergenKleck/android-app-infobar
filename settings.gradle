@@ -1,0 +1,2 @@
+rootProject.name = "InfoBar"
+include ':app'
