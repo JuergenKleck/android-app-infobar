@@ -1,4 +1,4 @@
-package info.simplyapps.app.infobar
+package com.juergenkleck.android.app.infobar
 
 import android.app.Activity
 import android.appwidget.AppWidgetManager
@@ -9,6 +9,11 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.RemoteViews
 
+/**
+ * Android app - InfoBar
+ *
+ * Copyright 2022 by Juergen Kleck <develop@juergenkleck.com>
+ */
 class ConfigActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

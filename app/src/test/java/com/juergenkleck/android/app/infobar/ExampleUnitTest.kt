@@ -1,4 +1,4 @@
-package info.simplyapps.app.infobar
+package com.juergenkleck.android.app.infobar
 
 import org.junit.Test
 

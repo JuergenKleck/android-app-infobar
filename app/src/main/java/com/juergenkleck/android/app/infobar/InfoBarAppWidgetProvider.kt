@@ -1,4 +1,4 @@
-package info.simplyapps.app.infobar
+package com.juergenkleck.android.app.infobar
 
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager
@@ -7,6 +7,11 @@ import android.content.Context
 import android.content.Intent
 import android.widget.RemoteViews
 
+/**
+ * Android app - InfoBar
+ *
+ * Copyright 2022 by Juergen Kleck <develop@juergenkleck.com>
+ */
 class InfoBarAppWidgetProvider : AppWidgetProvider() {
 
     override fun onUpdate(
