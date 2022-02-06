@@ -1,7 +1,12 @@
-package info.simplyapps.app.infobar
+package com.juergenkleck.android.app.infobar
 
 import android.content.Context
 
+/**
+ * Android app - InfoBar
+ *
+ * Copyright 2022 by Juergen Kleck <develop@juergenkleck.com>
+ */
 class StorageProvider {
 
     companion object {

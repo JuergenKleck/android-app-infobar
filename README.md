@@ -20,9 +20,3 @@ or with Android Studio.
 ### Dependencies
 
 No further dependencies required
-
-## Google Play Store
-
-The application is published on the following URL:
-
-https://play.google.com/store/apps/details?id=info.simplyapps.app.infobar

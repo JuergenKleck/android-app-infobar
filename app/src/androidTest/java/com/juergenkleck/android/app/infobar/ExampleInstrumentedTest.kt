@@ -1,4 +1,4 @@
-package info.simplyapps.app.infobar
+package com.juergenkleck.android.app.infobar
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("info.simplyapps.app.infobar", appContext.packageName)
+        assertEquals("com.juergenkleck.android.app.infobar", appContext.packageName)
     }
 }

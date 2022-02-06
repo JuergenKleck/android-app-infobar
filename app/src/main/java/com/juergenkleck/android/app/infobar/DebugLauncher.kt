@@ -1,10 +1,12 @@
-package info.simplyapps.app.infobar
+package com.juergenkleck.android.app.infobar
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
 /**
- * Activity for pure debugging reasons as the debugger cannot attach to a widget
+ * Android app - InfoBar
+ *
+ * Copyright 2022 by Juergen Kleck <develop@juergenkleck.com>
  */
 class DebugLauncher : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

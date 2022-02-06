@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="info.simplyapps.app.infobar">
+    package="com.juergenkleck.android.app.infobar">
 
     <application
         android:allowBackup="true"
@@ -18,13 +18,15 @@
             </intent-filter>
         </activity>
         -->
-        <activity android:name=".ConfigActivity">
+        <activity android:name=".ConfigActivity"
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
             </intent-filter>
         </activity>
 
-        <receiver android:name=".InfoBarAppWidgetProvider">
+        <receiver android:name=".InfoBarAppWidgetProvider"
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
